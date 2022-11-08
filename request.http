@@ -1,0 +1,21 @@
+
+### GET all sizes
+GET http://127.0.0.1:3000/api/swag
+
+### GET a sizes by id
+GET http://127.0.0.1:3000/api/swag/2
+
+### CREATE a new size
+POST http://127.0.0.1:3000/api/swag
+Content-Type: application/json
+
+{"name":"steven","shirt_size":"small"}
+
+### DELETE a size by id
+DELETE http://127.0.0.1:3000/api/swag/11
+
+### PATCH a new size
+PATCH http://127.0.0.1:3000/api/swag/1
+Content-Type: application/json
+
+{"name":"steven","shirt_size":"small"}
